@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=NetR10_2 Pin=U5-8
+Removed Pin From Net: NetName=NetR10_1 Pin=U5-9
+Removed Pin From Net: NetName=NetR13_1 Pin=U5-10
+Removed Pin From Net: NetName=A3V3 Pin=U6-4
+Removed Pin From Net: NetName=NetR14_1 Pin=U6-8
+Removed Pin From Net: NetName=NetR14_2 Pin=U6-9
+Removed Pin From Net: NetName=NetR17_1 Pin=U6-10
+Removed Pin From Net: NetName=AGND Pin=U6-11
+Removed Member From Class: ClassName=Ö÷µçÂ· Member=U6
+Added Pin To Net: NetName=A3V3 Pin=U5-4
+Added Pin To Net: NetName=NetR14_1 Pin=U5-8
+Added Pin To Net: NetName=NetR14_2 Pin=U5-9
+Added Pin To Net: NetName=NetR17_1 Pin=U5-10
+Added Pin To Net: NetName=AGND Pin=U5-11
+Added Pin To Net: NetName=NetR13_1 Pin=U5-12
+Added Pin To Net: NetName=NetR10_1 Pin=U5-13
+Added Pin To Net: NetName=NetR10_2 Pin=U5-14

@@ -1,0 +1,17 @@
+.\objects\arc4.o: wolfssl-3.10.2\wolfcrypt\src\arc4.c
+.\objects\arc4.o: .\wolfssl-3.10.2\IDE\MDK5-ARM\Inc\config.h
+.\objects\arc4.o: .\wolfssl-3.10.2\wolfssl/wolfcrypt/settings.h
+.\objects\arc4.o: .\wolfssl-3.10.2\wolfssl/wolfcrypt/visibility.h
+.\objects\arc4.o: .\wolfssl-conf\user_settings.h
+.\objects\arc4.o: .\wolfssl-3.10.2\wolfssl/wolfcrypt/error-crypt.h
+.\objects\arc4.o: .\wolfssl-3.10.2\wolfssl/wolfcrypt/types.h
+.\objects\arc4.o: .\wolfssl-3.10.2\wolfssl/wolfcrypt/wc_port.h
+.\objects\arc4.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\RTOS\RTX\INC\cmsis_os.h
+.\objects\arc4.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\arc4.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\arc4.o: .\wolfssl-3.10.2\wolfssl/wolfcrypt/memory.h
+.\objects\arc4.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\arc4.o: .\wolfssl-3.10.2\wolfssl/wolfcrypt/types.h
+.\objects\arc4.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\arc4.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
+.\objects\arc4.o: .\wolfssl-3.10.2\wolfssl/wolfcrypt/arc4.h

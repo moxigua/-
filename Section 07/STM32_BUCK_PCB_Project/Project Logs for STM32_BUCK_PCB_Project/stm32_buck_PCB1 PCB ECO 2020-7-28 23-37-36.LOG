@@ -1,0 +1,6 @@
+Added Component: Designator=L5(L_12uh)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetD3_2 Pin=L5-1
+Added Pin To Net: NetName=10V Pin=L5-2
+Added Member To Class: ClassName=¸¨ÖúµçÔ´ Member=Component L5 470uH
+Added Member To Class: ClassName=STM32 Member=Component U1 STM32F103ZGT6

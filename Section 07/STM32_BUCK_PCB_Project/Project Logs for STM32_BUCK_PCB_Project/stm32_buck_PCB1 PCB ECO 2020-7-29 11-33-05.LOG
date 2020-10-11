@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=NetR19_1 Pin=U5-1
+Removed Pin From Net: NetName=NetR19_1 Pin=U5-2
+Removed Pin From Net: NetName=NetR18_2 Pin=U5-3
+Removed Pin From Net: NetName=NetC4_2 Pin=U5-5
+Removed Pin From Net: NetName=NetC39_2 Pin=U5-6
+Removed Pin From Net: NetName=NetC39_2 Pin=U5-7
+Change Component Library : Designator=U5 Old Library= New Library=TI Amplifiers and Linear Operational Amplifier Precision Amplifier Part Two.IntLib
+Added Pin To Net: NetName=NetC39_2 Pin=U5-1
+Added Pin To Net: NetName=NetC39_2 Pin=U5-2
+Added Pin To Net: NetName=NetC4_2 Pin=U5-3
+Added Pin To Net: NetName=NetR18_2 Pin=U5-5
+Added Pin To Net: NetName=NetR19_1 Pin=U5-6
+Added Pin To Net: NetName=NetR19_1 Pin=U5-7

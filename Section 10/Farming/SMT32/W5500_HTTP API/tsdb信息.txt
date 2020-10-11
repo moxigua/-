@@ -1,0 +1,5 @@
+域名:temperature.tsdb.iot.gz.baidubce.com
+数据库名称：temperature
+数据库ID：tsdb-ij50u08m6yde
+Access ID:F6iqH2yp6jGmByqkGagdwXTA
+Access Key:NTT0GwhibDh488G2t5XTPdO7klnXT36q

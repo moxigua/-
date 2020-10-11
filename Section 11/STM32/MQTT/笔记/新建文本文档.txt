@@ -1,0 +1,5 @@
+0.8好用
+0.9 ping 会出现timeout 错误
+0.10 ping 会出现timeout错误
+0.11  ping 会出现timeout错误 
+0.12 直接出现错误，能够连接成功，但是只要调用 MqttClient_WaitMessage()函数就会出现错误

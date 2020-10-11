@@ -1,0 +1,22 @@
+Removed Pin From Net: NetName=GND Pin=P-TC1-1
+Removed Pin From Net: NetName=NetF1_1 Pin=P-TC1-2
+Removed Pin From Net: NetName=+24V Pin=P-TC2-1
+Removed Pin From Net: NetName=GND Pin=P-TC2-2
+Removed Member From Class: ClassName=LM3488_Sheet1 Member=P-TC1
+Removed Member From Class: ClassName=LM3488_Sheet1 Member=P-TC2
+Added Component: Designator=P1(8.5ЖЫзг)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=P2(8.5ЖЫзг)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=P1-1
+Added Pin To Net: NetName=+24V Pin=P1-2
+Added Pin To Net: NetName=NetF1_1 Pin=P2-1
+Added Pin To Net: NetName=GND Pin=P2-2
+Added Member To Class: ClassName=LM3488_Sheet1 Member=Component P1 Header 2
+Added Member To Class: ClassName=LM3488_Sheet1 Member=Component P2 Header 2

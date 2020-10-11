@@ -1,0 +1,16 @@
+.\objects\cpuid.o: C:\Users\moxigua\AppData\Local\Arm\Packs\wolfSSL\wolfSSL\4.5.0\wolfssl\wolfcrypt\src\cpuid.c
+.\objects\cpuid.o: ./config.h
+.\objects\cpuid.o: C:\Users\moxigua\AppData\Local\Arm\Packs\wolfSSL\wolfSSL\4.5.0\wolfssl\wolfssl/wolfcrypt/settings.h
+.\objects\cpuid.o: C:\Users\moxigua\AppData\Local\Arm\Packs\wolfSSL\wolfSSL\4.5.0\wolfssl\wolfssl/wolfcrypt/visibility.h
+.\objects\cpuid.o: .\RTE\wolfSSL\user_settings.h
+.\objects\cpuid.o: C:\Users\moxigua\AppData\Local\Arm\Packs\wolfSSL\wolfSSL\4.5.0\wolfssl\wolfssl/wolfcrypt/cpuid.h
+.\objects\cpuid.o: C:\Users\moxigua\AppData\Local\Arm\Packs\wolfSSL\wolfSSL\4.5.0\wolfssl\wolfssl/wolfcrypt/types.h
+.\objects\cpuid.o: C:\Users\moxigua\AppData\Local\Arm\Packs\wolfSSL\wolfSSL\4.5.0\wolfssl\wolfssl/wolfcrypt/wc_port.h
+.\objects\cpuid.o: C:\Users\moxigua\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\RTOS\RTX\INC\cmsis_os.h
+.\objects\cpuid.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\cpuid.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\cpuid.o: C:\Users\moxigua\AppData\Local\Arm\Packs\wolfSSL\wolfSSL\4.5.0\wolfssl\wolfssl/wolfcrypt/memory.h
+.\objects\cpuid.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\cpuid.o: C:\Users\moxigua\AppData\Local\Arm\Packs\wolfSSL\wolfSSL\4.5.0\wolfssl\wolfssl/wolfcrypt/types.h
+.\objects\cpuid.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\cpuid.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h

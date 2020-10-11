@@ -1,0 +1,10 @@
+.\objects\mqtt_packet.o: wolfMQTT-0.8\src\mqtt_packet.c
+.\objects\mqtt_packet.o: .\config.h
+.\objects\mqtt_packet.o: .\wolfmqtt-0.8\wolfmqtt/mqtt_packet.h
+.\objects\mqtt_packet.o: .\wolfmqtt-0.8\wolfmqtt/mqtt_types.h
+.\objects\mqtt_packet.o: .\wolfmqtt-0.8\wolfmqtt/visibility.h
+.\objects\mqtt_packet.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\mqtt_packet.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\mqtt_packet.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\mqtt_packet.o: .\wolfmqtt-0.8\wolfmqtt/mqtt_socket.h
+.\objects\mqtt_packet.o: .\wolfmqtt-0.8\wolfmqtt/mqtt_client.h

@@ -1,0 +1,287 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.31.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Liu moxigua, CCIT, LIC=RC93N-YNLU1-9UV4U-SDSNS-L22WJ-P0L6E
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.31.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.31.0.0
+Dialog DLL:      DARMSTM.DLL V1.68.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.38.0
+Dialog DLL:      TARMSTM.DLL V1.66.0.0
+ 
+<h2>Project:</h2>
+C:\Users\moxigua\Desktop\MQTT\MQTT.uvprojx
+Project File Date:  10/08/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling main.c...
+C:\Keil_v5\ARM\PACK\wolfSSL\wolfSSL\4.4.0\wolfssl\wolfssl/wolfcrypt/settings.h(2060): warning:  #1215-D: #warning directive: "For timing resistance / side-channel attack prevention consider using harden options"
+              #warning "For timing resistance / side-channel attack prevention consider using harden options"
+W5500_MQTT_Functions.h(23): warning:  #47-D: incompatible redefinition of macro "MAX_PACKET_ID"  (declared at line 40 of ".\ioLibrary_Driver-master\Internet\MQTT\MQTTClient.h")
+  #define MAX_PACKET_ID           ((1 << 16) - 4)
+main.c(41): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const byte *"
+  	ret = wc_Md5Update(&myMD5, PWMString, strlen(PWMString));
+main.c(95): warning:  #223-D: function "stdout_init" declared implicitly
+  	stdout_init(); 				//åˆå§‹åŒ–è°ƒè¯•ä¸²å?
+main.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=49280 RO-data=940 RW-data=416 ZI-data=94608  
+".\Objects\W5500_TCP.axf" - 0 Error(s), 4 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
+                ARM.CMSIS.5.7.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: SPI Version: 2.3.0
+   * Component: USART Version: 2.4.0
+   * Component: RTOS Version: 1.0.0
+   * Component: CORE Version: 5.4.0
+   * Component: Keil RTX Version: 4.82.0
+
+Package Vendor: wolfSSL
+                http://www.wolfSSL.com/files/ide/wolfSSL.wolfSSL.4.4.0.pack
+                wolfSSL.wolfSSL.4.4.0
+                Light weight SSL/TLS and Crypt Library for Embedded Systems
+   * Component: CORE Version: 4.4.0
+   * Component: Core Version: 4.4.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.ARM_Compiler.1.6.3.pack
+                Keil.ARM_Compiler.1.6.3
+                Keil ARM Compiler extensions for ARM Compiler 5 and ARM Compiler 6
+   * Component: STDOUT Variant: User Version: 1.2.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.3.0.pack
+                Keil.STM32F1xx_DFP.2.3.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+   * Component: SPI Version: 2.2
+   * Component: USART Version: 2.3
+   * Component: DMA Version: 1.2
+   * Component: GPIO Version: 1.3
+   * Component: Startup Version: 1.0.0
+   * Component: BKP Version: 3.5.0
+   * Component: Framework Version: 3.5.1
+   * Component: GPIO Version: 3.5.0
+   * Component: PWR Version: 3.5.0
+   * Component: RCC Version: 3.5.0
+   * Component: RTC Version: 3.5.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\Device\STM32F103ZG
+  .\RTE\_Target_1
+  .\RTE\wolfSSL
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Driver\Include
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\RTOS\RTX\INC
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\RTE_Driver
+  C:\Keil_v5\ARM\PACK\wolfSSL\wolfSSL\4.4.0\wolfssl
+  C:\Keil_v5\ARM\PACK\wolfSSL\wolfSSL\4.4.0\wolfssl\IDE\MDK5-ARM\Inc
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ::CMSIS Driver:SPI:2.3.0 (API)
+      Include file:  CMSIS\Driver\Include\Driver_SPI.h
+
+   * Component: ::CMSIS Driver:USART:2.4.0 (API)
+      Include file:  CMSIS\Driver\Include\Driver_USART.h
+
+   * Component: ::CMSIS:RTOS:1.0.0 (API)
+
+   * Component: ARM::CMSIS:CORE:5.4.0
+
+   * Component: ARM::CMSIS:RTOS:Keil RTX:4.82.0
+      Source file:   CMSIS\RTOS\RTX\Templates\RTX_Conf_CM.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\MailQueue.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\MemPool.c
+      Include file:  CMSIS\RTOS\RTX\INC\cmsis_os.h
+      Include file:  CMSIS\RTOS\RTX\UserCodeTemplates\osObjects.h
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\main.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Timer.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Semaphore.c
+      Library file:  CMSIS\RTOS\RTX\LIB\ARM\RTX_CM3.lib
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Mutex.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\MsgQueue.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Thread.c
+      Source file:   CMSIS\RTOS\RTX\SRC\ARM\SVC_Table.s
+
+   * Component: Keil.ARM Compiler::Compiler:I/O:STDOUT:User:1.2.0
+      Source file:   Template\stdout_user.c
+      Source file:   Template\stdout_display.c
+      Source file:   Source\retarget_io.c
+      Source file:   Template\stdout_USART.c
+
+   * Component: Keil::CMSIS Driver:SPI:2.2
+      Source file:   RTE_Driver\SPI_STM32F10x.c
+
+   * Component: Keil::CMSIS Driver:USART:2.3
+      Source file:   RTE_Driver\USART_STM32F10x.c
+
+   * Component: Keil::Device:DMA:1.2
+      Include file:  RTE_Driver\DMA_STM32F10x.h
+      Source file:   RTE_Driver\DMA_STM32F10x.c
+
+   * Component: Keil::Device:GPIO:1.3
+      Source file:   RTE_Driver\GPIO_STM32F10x.c
+      Include file:  RTE_Driver\GPIO_STM32F10x.h
+
+   * Component: Keil::Device:Startup:1.0.0
+      Source file:   Device\Source\ARM\startup_stm32f10x_xl.s
+      Source file:   Device\Source\ARM\STM32F1xx_OPT.s
+      Include file:  RTE_Driver\Config\RTE_Device.h
+      Source file:   Device\Source\system_stm32f10x.c
+
+   * Component: Keil::Device:StdPeriph Drivers:BKP:3.5.0
+      Source file:   Device\StdPeriph_Driver\src\stm32f10x_bkp.c
+      Include file:  Device\StdPeriph_Driver\inc\stm32f10x_bkp.h
+
+   * Component: Keil::Device:StdPeriph Drivers:Framework:3.5.1
+      Include file:  Device\StdPeriph_Driver\inc\misc.h
+      Source file:   Device\StdPeriph_Driver\templates\stm32f10x_conf.h
+      Source file:   Device\StdPeriph_Driver\src\misc.c
+      Source file:   Device\StdPeriph_Driver\templates\stm32f10x_it.c
+      Include file:  Device\StdPeriph_Driver\templates\stm32f10x_it.h
+
+   * Component: Keil::Device:StdPeriph Drivers:GPIO:3.5.0
+      Include file:  Device\StdPeriph_Driver\inc\stm32f10x_gpio.h
+      Source file:   Device\StdPeriph_Driver\src\stm32f10x_gpio.c
+
+   * Component: Keil::Device:StdPeriph Drivers:PWR:3.5.0
+      Include file:  Device\StdPeriph_Driver\inc\stm32f10x_pwr.h
+      Source file:   Device\StdPeriph_Driver\src\stm32f10x_pwr.c
+
+   * Component: Keil::Device:StdPeriph Drivers:RCC:3.5.0
+      Include file:  Device\StdPeriph_Driver\inc\stm32f10x_rcc.h
+      Source file:   Device\StdPeriph_Driver\src\stm32f10x_rcc.c
+
+   * Component: Keil::Device:StdPeriph Drivers:RTC:3.5.0
+      Include file:  Device\StdPeriph_Driver\inc\stm32f10x_rtc.h
+      Source file:   Device\StdPeriph_Driver\src\stm32f10x_rtc.c
+
+   * Component: wolfSSL.wolfSSL::wolfSSL:wolfCrypt:CORE:4.4.0
+      Source file:   wolfssl\wolfcrypt\src\curve448.c
+      Source file:   wolfssl\wolfcrypt\src\curve25519.c
+      Source file:   wolfssl\wolfcrypt\src\des3.c
+      Source file:   wolfssl\wolfcrypt\src\arc4.c
+      Source file:   wolfssl\wolfcrypt\src\blake2b.c
+      Source file:   wolfssl\wolfcrypt\src\camellia.c
+      Source file:   wolfssl\wolfcrypt\src\asm.c
+      Source file:   wolfssl\wolfcrypt\src\chacha.c
+      Source file:   wolfssl\wolfcrypt\src\asn.c
+      Source file:   wolfssl\wolfcrypt\src\blake2s.c
+      Include file:  wolfssl\IDE\MDK5-ARM\Conf\user_settings.h
+      Source file:   wolfssl\wolfcrypt\src\chacha20_poly1305.c
+      Source file:   wolfssl\wolfcrypt\src\cmac.c
+      Source file:   wolfssl\wolfcrypt\src\coding.c
+      Source file:   wolfssl\wolfcrypt\src\compress.c
+      Source file:   wolfssl\wolfcrypt\src\aes.c
+      Source file:   wolfssl\wolfcrypt\src\cpuid.c
+      Source file:   wolfssl\wolfcrypt\src\ge_448.c
+      Source file:   wolfssl\wolfcrypt\src\ecc.c
+      Source file:   wolfssl\wolfcrypt\src\ecc_fp.c
+      Source file:   wolfssl\wolfcrypt\src\poly1305.c
+      Source file:   wolfssl\wolfcrypt\src\rsa.c
+      Source file:   wolfssl\wolfcrypt\src\integer.c
+      Source file:   wolfssl\wolfcrypt\src\ed448.c
+      Source file:   wolfssl\wolfcrypt\src\md4.c
+      Source file:   wolfssl\wolfcrypt\src\fe_448.c
+      Source file:   wolfssl\wolfcrypt\src\memory.c
+      Source file:   wolfssl\wolfcrypt\src\random.c
+      Source file:   wolfssl\wolfcrypt\src\sha.c
+      Source file:   wolfssl\wolfcrypt\src\sha256.c
+      Source file:   wolfssl\wolfcrypt\src\fe_operations.c
+      Source file:   wolfssl\wolfcrypt\src\dsa.c
+      Source file:   wolfssl\wolfcrypt\src\ge_low_mem.c
+      Source file:   wolfssl\wolfcrypt\src\logging.c
+      Source file:   wolfssl\wolfcrypt\src\md2.c
+      Source file:   wolfssl\wolfcrypt\src\dh.c
+      Source file:   wolfssl\wolfcrypt\src\fe_low_mem.c
+      Source file:   wolfssl\wolfcrypt\src\error.c
+      Source file:   wolfssl\wolfcrypt\src\md5.c
+      Source file:   wolfssl\wolfcrypt\src\pkcs7.c
+      Source file:   wolfssl\wolfcrypt\src\pkcs12.c
+      Source file:   wolfssl\wolfcrypt\src\pwdbased.c
+      Source file:   wolfssl\wolfcrypt\src\hash.c
+      Source file:   wolfssl\wolfcrypt\src\hc128.c
+      Source file:   wolfssl\wolfcrypt\src\rabbit.c
+      Source file:   wolfssl\wolfcrypt\src\ripemd.c
+      Source file:   wolfssl\wolfcrypt\src\hmac.c
+      Source file:   wolfssl\wolfcrypt\src\ed25519.c
+      Source file:   wolfssl\wolfcrypt\src\ge_operations.c
+      Source file:   wolfssl\wolfcrypt\src\wc_dsp.c
+      Source file:   wolfssl\wolfcrypt\src\port\caam\caam_aes.c
+      Source file:   wolfssl\wolfcrypt\src\port\arm\armv8-32-sha512-asm.c
+      Source file:   wolfssl\wolfcrypt\src\port\caam\caam_driver.c
+      Source file:   wolfssl\wolfcrypt\src\port\arm\armv8-poly1305.c
+      Source file:   wolfssl\wolfcrypt\src\port\caam\caam_init.c
+      Source file:   wolfssl\wolfcrypt\src\wolfmath.c
+      Source file:   wolfssl\wolfcrypt\src\port\arm\armv8-chacha.c
+      Source file:   wolfssl\wolfcrypt\src\sp_cortexm.c
+      Source file:   wolfssl\wolfcrypt\src\sha512.c
+      Source file:   wolfssl\wolfcrypt\src\sp_dsp32.c
+      Source file:   wolfssl\wolfcrypt\src\srp.c
+      Source file:   wolfssl\wolfcrypt\src\wc_encrypt.c
+      Source file:   wolfssl\wolfcrypt\src\port\arm\armv8-sha256.c
+      Source file:   wolfssl\wolfcrypt\src\port\atmel\atmel.c
+      Source file:   wolfssl\wolfcrypt\src\tfm.c
+      Source file:   wolfssl\wolfcrypt\src\sp_x86_64.c
+      Source file:   wolfssl\wolfcrypt\src\signature.c
+      Source file:   wolfssl\wolfcrypt\src\port\arm\armv8-aes.c
+      Source file:   wolfssl\wolfcrypt\src\sp_c32.c
+      Source file:   wolfssl\wolfcrypt\src\sp_int.c
+      Source file:   wolfssl\wolfcrypt\src\wc_pkcs11.c
+      Source file:   wolfssl\wolfcrypt\src\sp_arm32.c
+      Source file:   wolfssl\wolfcrypt\src\sp_c64.c
+      Source file:   wolfssl\wolfcrypt\src\wc_port.c
+      Source file:   wolfssl\wolfcrypt\src\port\arm\armv8-curve25519.c
+      Source file:   wolfssl\wolfcrypt\src\sha3.c
+      Source file:   wolfssl\wolfcrypt\src\wolfevent.c
+      Source file:   wolfssl\wolfcrypt\src\sp_armthumb.c
+      Source file:   wolfssl\wolfcrypt\src\port\arm\armv8-32-curve25519.c
+      Source file:   wolfssl\wolfcrypt\src\sp_arm64.c
+      Source file:   wolfssl\wolfcrypt\src\port\arm\armv8-sha512.c
+      Source file:   wolfssl\wolfcrypt\src\port\pic32\pic32mz-crypt.c
+      Source file:   wolfssl\wolfcrypt\src\port\xilinx\xil-aesgcm.c
+      Source file:   wolfssl\wolfcrypt\src\port\nrf51.c
+      Source file:   wolfssl\wolfcrypt\src\port\ti\ti-ccm.c
+      Source file:   wolfssl\wolfcrypt\src\port\nxp\ksdk_port.c
+      Source file:   wolfssl\wolfcrypt\src\port\st\stsafe.c
+      Source file:   wolfssl\wolfcrypt\src\port\ti\ti-des3.c
+      Source file:   wolfssl\wolfcrypt\src\port\ti\ti-hash.c
+      Source file:   wolfssl\wolfcrypt\src\port\caam\caam_sha.c
+      Source file:   wolfssl\wolfcrypt\src\port\st\stm32.c
+      Source file:   wolfssl\wolfcrypt\src\port\xilinx\xil-sha3.c
+      Source file:   wolfssl\wolfcrypt\src\port\ti\ti-aes.c
+
+   * Component: wolfSSL.wolfSSL::wolfSSL:wolfSSL:Core:4.4.0
+      Include file:  wolfssl\IDE\MDK5-ARM\Conf\user_settings.h
+      Source file:   wolfssl\src\wolfio.c
+      Source file:   wolfssl\src\keys.c
+      Source file:   wolfssl\src\crl.c
+      Source file:   wolfssl\src\ocsp.c
+      Source file:   wolfssl\src\tls13.c
+      Source file:   wolfssl\src\internal.c
+      Source file:   wolfssl\src\sniffer.c
+      Source file:   wolfssl\src\tls.c
+      Source file:   wolfssl\src\ssl.c
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>

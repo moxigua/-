@@ -1,0 +1,13 @@
+Added Component: Designator=L5(L-12X12S)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "ErpDataInfo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://192.168.0.2:8012/ErpExt/ErpData/ListMateriel.aspx?pkey=1.03.01.0049"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "470uH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "名称"; Value = "电感"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "物料代码"; Value = "1.03.01.0049"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "现有库存"; Value = "80"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "规格型号"; Value = "SPRH125-330M"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "贴片和直插"; Value = "SMT"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetD3_2 Pin=L5-1
+Added Pin To Net: NetName=10V Pin=L5-2
+Added Member To Class: ClassName=辅助电源 Member=Component L5 INDUCTOR1

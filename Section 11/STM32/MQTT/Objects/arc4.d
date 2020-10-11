@@ -1,0 +1,17 @@
+.\objects\arc4.o: C:\Keil_v5\ARM\PACK\wolfSSL\wolfSSL\4.4.0\wolfssl\wolfcrypt\src\arc4.c
+.\objects\arc4.o: .\config.h
+.\objects\arc4.o: C:\Keil_v5\ARM\PACK\wolfSSL\wolfSSL\4.4.0\wolfssl\wolfssl/wolfcrypt/settings.h
+.\objects\arc4.o: C:\Keil_v5\ARM\PACK\wolfSSL\wolfSSL\4.4.0\wolfssl\wolfssl/wolfcrypt/visibility.h
+.\objects\arc4.o: .\user_settings.h
+.\objects\arc4.o: C:\Keil_v5\ARM\PACK\wolfSSL\wolfSSL\4.4.0\wolfssl\wolfssl/wolfcrypt/error-crypt.h
+.\objects\arc4.o: C:\Keil_v5\ARM\PACK\wolfSSL\wolfSSL\4.4.0\wolfssl\wolfssl/wolfcrypt/types.h
+.\objects\arc4.o: C:\Keil_v5\ARM\PACK\wolfSSL\wolfSSL\4.4.0\wolfssl\wolfssl/wolfcrypt/wc_port.h
+.\objects\arc4.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\RTOS\RTX\INC\cmsis_os.h
+.\objects\arc4.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\arc4.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\arc4.o: C:\Keil_v5\ARM\PACK\wolfSSL\wolfSSL\4.4.0\wolfssl\wolfssl/wolfcrypt/memory.h
+.\objects\arc4.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\arc4.o: C:\Keil_v5\ARM\PACK\wolfSSL\wolfSSL\4.4.0\wolfssl\wolfssl/wolfcrypt/types.h
+.\objects\arc4.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\arc4.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
+.\objects\arc4.o: C:\Keil_v5\ARM\PACK\wolfSSL\wolfSSL\4.4.0\wolfssl\wolfssl/wolfcrypt/arc4.h

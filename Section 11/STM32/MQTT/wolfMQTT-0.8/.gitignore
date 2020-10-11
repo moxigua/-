@@ -1,0 +1,65 @@
+# Object files
+*.o
+*.ko
+*.lo
+
+# Libraries
+*.lib
+*.a
+*.la
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# autoconf misc
+aclocal.m4
+lt*.m4
+*.cache
+config.*
+configure
+libtool
+libtool.m4
+*.log
+*.gz
+Makefile
+Makefile.in
+*.deps
+.dirstamp
+*.libs
+stamp-h
+src/stamp-h1
+build-aux/
+wolfmqtt-config
+aminclude.am
+
+# vim
+*.swp
+tags
+diff
+.vimrc
+
+# test output
+
+# scan-build
+client.plist
+examples/mqttclient/mqttclient
+Debug
+.vs
+*.aps
+*.sdf
+*.user
+examples/firmware/fwclient
+examples/firmware/fwpush
+*.opensdf
+firmware.bin
+*.trs
+IDE/ARDUINO/wolfmqtt
+examples/azure/azureiothub

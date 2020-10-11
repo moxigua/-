@@ -1,0 +1,16 @@
+.\objects\error.o: C:\Keil_v5\ARM\PACK\wolfSSL\wolfSSL\4.4.0\wolfssl\wolfcrypt\src\error.c
+.\objects\error.o: .\config.h
+.\objects\error.o: C:\Keil_v5\ARM\PACK\wolfSSL\wolfSSL\4.4.0\wolfssl\wolfssl/wolfcrypt/settings.h
+.\objects\error.o: C:\Keil_v5\ARM\PACK\wolfSSL\wolfSSL\4.4.0\wolfssl\wolfssl/wolfcrypt/visibility.h
+.\objects\error.o: .\user_settings.h
+.\objects\error.o: C:\Keil_v5\ARM\PACK\wolfSSL\wolfSSL\4.4.0\wolfssl\wolfssl/wolfcrypt/error-crypt.h
+.\objects\error.o: C:\Keil_v5\ARM\PACK\wolfSSL\wolfSSL\4.4.0\wolfssl\wolfssl/wolfcrypt/types.h
+.\objects\error.o: C:\Keil_v5\ARM\PACK\wolfSSL\wolfSSL\4.4.0\wolfssl\wolfssl/wolfcrypt/wc_port.h
+.\objects\error.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\RTOS\RTX\INC\cmsis_os.h
+.\objects\error.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\error.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\error.o: C:\Keil_v5\ARM\PACK\wolfSSL\wolfSSL\4.4.0\wolfssl\wolfssl/wolfcrypt/memory.h
+.\objects\error.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\error.o: C:\Keil_v5\ARM\PACK\wolfSSL\wolfSSL\4.4.0\wolfssl\wolfssl/wolfcrypt/types.h
+.\objects\error.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\error.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h

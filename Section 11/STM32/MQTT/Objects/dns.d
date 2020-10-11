@@ -1,0 +1,9 @@
+.\objects\dns.o: ioLibrary_Driver-master\Internet\DNS\dns.c
+.\objects\dns.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\dns.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\dns.o: .\ioLibrary_Driver-master\Ethernet\socket.h
+.\objects\dns.o: .\ioLibrary_Driver-master\Ethernet\wizchip_conf.h
+.\objects\dns.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\dns.o: .\ioLibrary_Driver-master\Ethernet\W5500/w5500.h
+.\objects\dns.o: .\ioLibrary_Driver-master\Ethernet\wizchip_conf.h
+.\objects\dns.o: ioLibrary_Driver-master\Internet\DNS\dns.h

@@ -1,0 +1,216 @@
+Dependencies for Project 'W5500_TCP', Target 'Target 1': (DO NOT MODIFY !)
+F (.\main.c)(0x580F32F2)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\ioLibrary_Driver-master\Ethernet -I .\ioLibrary_Driver-master\Ethernet\W5500 -I .\ioLibrary_Driver-master\Application\loopback -I .\ioLibrary_Driver-master\Internet-I "F:\STM32_learning\MDK5_learning_STM32\MyProject\serial MQTT_moxigua\T2.W5500_TCP_DHCP\RTE"-I "F:\STM32_learning\MDK5_learning_STM32\MyProject\serial MQTT_moxigua\T2.W5500_TCP_DHCP\RTE\Device\STM32F103ZG"-I F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Driver\Include-I F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\RTOS\RTX\INC-I F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc-I F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\RTE_Driver-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F10X_XL-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x573595A0)
+I (F:\MDK520\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (F:\MDK520\ARM\ARMCC\include\stddef.h)(0x56FE42DE)
+I (.\ioLibrary_Driver-master\Application\loopback\loopback.h)(0x5728DA22)
+I (W5500_functions.h)(0x57E8E8D6)
+I (F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Driver\Include\Driver_SPI.h)(0x57352EA8)
+I (F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Driver\Include\Driver_Common.h)(0x57352EA8)
+I (F:\MDK520\ARM\ARMCC\include\stdbool.h)(0x56FE42DC)
+I (.\ioLibrary_Driver-master\Ethernet\wizchip_conf.h)(0x5728DA22)
+I (.\ioLibrary_Driver-master\Ethernet\W5500/w5500.h)(0x5728DA22)
+F (.\stdout_USART.c)(0x57DCD2AF)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\ioLibrary_Driver-master\Ethernet -I .\ioLibrary_Driver-master\Ethernet\W5500 -I .\ioLibrary_Driver-master\Application\loopback -I .\ioLibrary_Driver-master\Internet-I "F:\STM32_learning\MDK5_learning_STM32\MyProject\serial MQTT_moxigua\T2.W5500_TCP_DHCP\RTE"-I "F:\STM32_learning\MDK5_learning_STM32\MyProject\serial MQTT_moxigua\T2.W5500_TCP_DHCP\RTE\Device\STM32F103ZG"-I F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Driver\Include-I F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\RTOS\RTX\INC-I F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc-I F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\RTE_Driver-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F10X_XL-o .\objects\stdout_usart.o --omf_browse .\objects\stdout_usart.crf --depend .\objects\stdout_usart.d)
+I (F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Driver\Include\Driver_USART.h)(0x57352EA8)
+I (F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Driver\Include\Driver_Common.h)(0x57352EA8)
+I (F:\MDK520\ARM\ARMCC\include\stddef.h)(0x56FE42DE)
+I (F:\MDK520\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (F:\MDK520\ARM\ARMCC\include\stdbool.h)(0x56FE42DC)
+F (.\ioLibrary_Driver-master\Application\loopback\loopback.c)(0x57E25283)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\ioLibrary_Driver-master\Ethernet -I .\ioLibrary_Driver-master\Ethernet\W5500 -I .\ioLibrary_Driver-master\Application\loopback -I .\ioLibrary_Driver-master\Internet-I "F:\STM32_learning\MDK5_learning_STM32\MyProject\serial MQTT_moxigua\T2.W5500_TCP_DHCP\RTE"-I "F:\STM32_learning\MDK5_learning_STM32\MyProject\serial MQTT_moxigua\T2.W5500_TCP_DHCP\RTE\Device\STM32F103ZG"-I F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Driver\Include-I F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\RTOS\RTX\INC-I F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc-I F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\RTE_Driver-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F10X_XL-o .\objects\loopback.o --omf_browse .\objects\loopback.crf --depend .\objects\loopback.d)
+I (F:\MDK520\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
+I (ioLibrary_Driver-master\Application\loopback\loopback.h)(0x5728DA22)
+I (F:\MDK520\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (.\ioLibrary_Driver-master\Ethernet\socket.h)(0x5728DA22)
+I (.\ioLibrary_Driver-master\Ethernet\wizchip_conf.h)(0x5728DA22)
+I (.\ioLibrary_Driver-master\Ethernet\W5500/w5500.h)(0x5728DA22)
+F (.\ioLibrary_Driver-master\Ethernet\socket.c)(0x5728DA22)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\ioLibrary_Driver-master\Ethernet -I .\ioLibrary_Driver-master\Ethernet\W5500 -I .\ioLibrary_Driver-master\Application\loopback -I .\ioLibrary_Driver-master\Internet-I "F:\STM32_learning\MDK5_learning_STM32\MyProject\serial MQTT_moxigua\T2.W5500_TCP_DHCP\RTE"-I "F:\STM32_learning\MDK5_learning_STM32\MyProject\serial MQTT_moxigua\T2.W5500_TCP_DHCP\RTE\Device\STM32F103ZG"-I F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Driver\Include-I F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\RTOS\RTX\INC-I F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc-I F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\RTE_Driver-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F10X_XL-o .\objects\socket.o --omf_browse .\objects\socket.crf --depend .\objects\socket.d)
+I (ioLibrary_Driver-master\Ethernet\socket.h)(0x5728DA22)
+I (ioLibrary_Driver-master\Ethernet\wizchip_conf.h)(0x5728DA22)
+I (F:\MDK520\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (ioLibrary_Driver-master\Ethernet\W5500/w5500.h)(0x5728DA22)
+I (.\ioLibrary_Driver-master\Ethernet\wizchip_conf.h)(0x5728DA22)
+F (.\ioLibrary_Driver-master\Ethernet\wizchip_conf.c)(0x5728DA22)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\ioLibrary_Driver-master\Ethernet -I .\ioLibrary_Driver-master\Ethernet\W5500 -I .\ioLibrary_Driver-master\Application\loopback -I .\ioLibrary_Driver-master\Internet-I "F:\STM32_learning\MDK5_learning_STM32\MyProject\serial MQTT_moxigua\T2.W5500_TCP_DHCP\RTE"-I "F:\STM32_learning\MDK5_learning_STM32\MyProject\serial MQTT_moxigua\T2.W5500_TCP_DHCP\RTE\Device\STM32F103ZG"-I F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Driver\Include-I F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\RTOS\RTX\INC-I F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc-I F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\RTE_Driver-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F10X_XL-o .\objects\wizchip_conf.o --omf_browse .\objects\wizchip_conf.crf --depend .\objects\wizchip_conf.d)
+I (F:\MDK520\ARM\ARMCC\include\stddef.h)(0x56FE42DE)
+I (ioLibrary_Driver-master\Ethernet\wizchip_conf.h)(0x5728DA22)
+I (F:\MDK520\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (ioLibrary_Driver-master\Ethernet\W5500/w5500.h)(0x5728DA22)
+I (.\ioLibrary_Driver-master\Ethernet\wizchip_conf.h)(0x5728DA22)
+F (.\ioLibrary_Driver-master\Ethernet\W5500\w5500.c)(0x5728DA22)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\ioLibrary_Driver-master\Ethernet -I .\ioLibrary_Driver-master\Ethernet\W5500 -I .\ioLibrary_Driver-master\Application\loopback -I .\ioLibrary_Driver-master\Internet-I "F:\STM32_learning\MDK5_learning_STM32\MyProject\serial MQTT_moxigua\T2.W5500_TCP_DHCP\RTE"-I "F:\STM32_learning\MDK5_learning_STM32\MyProject\serial MQTT_moxigua\T2.W5500_TCP_DHCP\RTE\Device\STM32F103ZG"-I F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Driver\Include-I F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\RTOS\RTX\INC-I F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc-I F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\RTE_Driver-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F10X_XL-o .\objects\w5500.o --omf_browse .\objects\w5500.crf --depend .\objects\w5500.d)
+I (ioLibrary_Driver-master\Ethernet\W5500\w5500.h)(0x5728DA22)
+I (F:\MDK520\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (.\ioLibrary_Driver-master\Ethernet\wizchip_conf.h)(0x5728DA22)
+I (.\ioLibrary_Driver-master\Ethernet\W5500/w5500.h)(0x5728DA22)
+F (.\ioLibrary_Driver-master\Internet\DHCP\dhcp.c)(0x5728DA22)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\ioLibrary_Driver-master\Ethernet -I .\ioLibrary_Driver-master\Ethernet\W5500 -I .\ioLibrary_Driver-master\Application\loopback -I .\ioLibrary_Driver-master\Internet-I "F:\STM32_learning\MDK5_learning_STM32\MyProject\serial MQTT_moxigua\T2.W5500_TCP_DHCP\RTE"-I "F:\STM32_learning\MDK5_learning_STM32\MyProject\serial MQTT_moxigua\T2.W5500_TCP_DHCP\RTE\Device\STM32F103ZG"-I F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Driver\Include-I F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\RTOS\RTX\INC-I F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc-I F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\RTE_Driver-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F10X_XL-o .\objects\dhcp.o --omf_browse .\objects\dhcp.crf --depend .\objects\dhcp.d)
+I (.\ioLibrary_Driver-master\Ethernet\socket.h)(0x5728DA22)
+I (.\ioLibrary_Driver-master\Ethernet\wizchip_conf.h)(0x5728DA22)
+I (F:\MDK520\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (.\ioLibrary_Driver-master\Ethernet\W5500/w5500.h)(0x5728DA22)
+I (ioLibrary_Driver-master\Internet\DHCP\dhcp.h)(0x57E8E818)
+F (.\W5500_functions.c)(0x57E8F4E1)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\ioLibrary_Driver-master\Ethernet -I .\ioLibrary_Driver-master\Ethernet\W5500 -I .\ioLibrary_Driver-master\Application\loopback -I .\ioLibrary_Driver-master\Internet-I "F:\STM32_learning\MDK5_learning_STM32\MyProject\serial MQTT_moxigua\T2.W5500_TCP_DHCP\RTE"-I "F:\STM32_learning\MDK5_learning_STM32\MyProject\serial MQTT_moxigua\T2.W5500_TCP_DHCP\RTE\Device\STM32F103ZG"-I F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Driver\Include-I F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\RTOS\RTX\INC-I F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc-I F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\RTE_Driver-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F10X_XL-o .\objects\w5500_functions.o --omf_browse .\objects\w5500_functions.crf --depend .\objects\w5500_functions.d)
+I (F:\MDK520\ARM\ARMCC\include\string.h)(0x56FE42DE)
+I (W5500_functions.h)(0x57E8E8D6)
+I (F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Driver\Include\Driver_SPI.h)(0x57352EA8)
+I (F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Driver\Include\Driver_Common.h)(0x57352EA8)
+I (F:\MDK520\ARM\ARMCC\include\stddef.h)(0x56FE42DE)
+I (F:\MDK520\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (F:\MDK520\ARM\ARMCC\include\stdbool.h)(0x56FE42DC)
+I (F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x573595A0)
+I (.\ioLibrary_Driver-master\Ethernet\wizchip_conf.h)(0x5728DA22)
+I (.\ioLibrary_Driver-master\Ethernet\W5500/w5500.h)(0x5728DA22)
+I (F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\stm32f10x.h)(0x57C5120C)
+I (F:\STM32_learning\MDK5_learning_STM32\MyProject\serial MQTT_moxigua\T2.W5500_TCP_DHCP\RTE\RTE_Components.h)(0x57DBE87F)
+I (F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cm3.h)(0x5735959E)
+I (F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cminstr.h)(0x57352EA6)
+I (F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\cmsis_armcc.h)(0x57352EA6)
+I (F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cmfunc.h)(0x57352EA6)
+I (F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (F:\STM32_learning\MDK5_learning_STM32\MyProject\serial MQTT_moxigua\T2.W5500_TCP_DHCP\RTE\Device\STM32F103ZG\stm32f10x_conf.h)(0x52F9EDD0)
+I (F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (.\ioLibrary_Driver-master\Ethernet\socket.h)(0x5728DA22)
+I (F:\MDK520\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
+I (.\ioLibrary_Driver-master\Internet\DHCP/DHCP.h)(0x57E8E818)
+F (F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\RTOS\RTX\LIB\ARM\RTX_CM3.lib)(0x573595A0)()
+F (RTE\CMSIS\RTX_Conf_CM.c)(0x57DCE873)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\ioLibrary_Driver-master\Ethernet -I .\ioLibrary_Driver-master\Ethernet\W5500 -I .\ioLibrary_Driver-master\Application\loopback -I .\ioLibrary_Driver-master\Internet-I "F:\STM32_learning\MDK5_learning_STM32\MyProject\serial MQTT_moxigua\T2.W5500_TCP_DHCP\RTE"-I "F:\STM32_learning\MDK5_learning_STM32\MyProject\serial MQTT_moxigua\T2.W5500_TCP_DHCP\RTE\Device\STM32F103ZG"-I F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Driver\Include-I F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\RTOS\RTX\INC-I F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc-I F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\RTE_Driver-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F10X_XL-o .\objects\rtx_conf_cm.o --omf_browse .\objects\rtx_conf_cm.crf --depend .\objects\rtx_conf_cm.d)
+I (F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x573595A0)
+I (F:\MDK520\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (F:\MDK520\ARM\ARMCC\include\stddef.h)(0x56FE42DE)
+I (F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\RTOS\RTX\INC\RTX_CM_lib.h)(0x573595A0)
+F (F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\RTE_Driver\SPI_STM32F10x.c)(0x562D9510)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\ioLibrary_Driver-master\Ethernet -I .\ioLibrary_Driver-master\Ethernet\W5500 -I .\ioLibrary_Driver-master\Application\loopback -I .\ioLibrary_Driver-master\Internet-I "F:\STM32_learning\MDK5_learning_STM32\MyProject\serial MQTT_moxigua\T2.W5500_TCP_DHCP\RTE"-I "F:\STM32_learning\MDK5_learning_STM32\MyProject\serial MQTT_moxigua\T2.W5500_TCP_DHCP\RTE\Device\STM32F103ZG"-I F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Driver\Include-I F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\RTOS\RTX\INC-I F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc-I F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\RTE_Driver-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F10X_XL-o .\objects\spi_stm32f10x.o --omf_browse .\objects\spi_stm32f10x.crf --depend .\objects\spi_stm32f10x.d)
+I (F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\RTE_Driver\SPI_STM32F10x.h)(0x562D9510)
+I (F:\MDK520\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (F:\MDK520\ARM\ARMCC\include\stdbool.h)(0x56FE42DC)
+I (F:\MDK520\ARM\ARMCC\include\string.h)(0x56FE42DE)
+I (F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\stm32f10x.h)(0x57C5120C)
+I (F:\STM32_learning\MDK5_learning_STM32\MyProject\serial MQTT_moxigua\T2.W5500_TCP_DHCP\RTE\RTE_Components.h)(0x57DBE87F)
+I (F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cm3.h)(0x5735959E)
+I (F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cminstr.h)(0x57352EA6)
+I (F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\cmsis_armcc.h)(0x57352EA6)
+I (F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cmfunc.h)(0x57352EA6)
+I (F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (F:\STM32_learning\MDK5_learning_STM32\MyProject\serial MQTT_moxigua\T2.W5500_TCP_DHCP\RTE\Device\STM32F103ZG\stm32f10x_conf.h)(0x52F9EDD0)
+I (F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\RTE_Driver\GPIO_STM32F10x.h)(0x5617291E)
+I (F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\RTE_Driver\DMA_STM32F10x.h)(0x52B2710E)
+I (F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Driver\Include\Driver_SPI.h)(0x57352EA8)
+I (F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Driver\Include\Driver_Common.h)(0x57352EA8)
+I (F:\MDK520\ARM\ARMCC\include\stddef.h)(0x56FE42DE)
+I (F:\STM32_learning\MDK5_learning_STM32\MyProject\serial MQTT_moxigua\T2.W5500_TCP_DHCP\RTE\Device\STM32F103ZG\RTE_Device.h)(0x57DCD1D2)
+F (F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\RTE_Driver\USART_STM32F10x.c)(0x56F9DE5C)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\ioLibrary_Driver-master\Ethernet -I .\ioLibrary_Driver-master\Ethernet\W5500 -I .\ioLibrary_Driver-master\Application\loopback -I .\ioLibrary_Driver-master\Internet-I "F:\STM32_learning\MDK5_learning_STM32\MyProject\serial MQTT_moxigua\T2.W5500_TCP_DHCP\RTE"-I "F:\STM32_learning\MDK5_learning_STM32\MyProject\serial MQTT_moxigua\T2.W5500_TCP_DHCP\RTE\Device\STM32F103ZG"-I F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Driver\Include-I F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\RTOS\RTX\INC-I F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc-I F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\RTE_Driver-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F10X_XL-o .\objects\usart_stm32f10x.o --omf_browse .\objects\usart_stm32f10x.crf --depend .\objects\usart_stm32f10x.d)
+I (F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\RTE_Driver\USART_STM32F10x.h)(0x56F9DE5C)
+I (F:\MDK520\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (F:\MDK520\ARM\ARMCC\include\stdbool.h)(0x56FE42DC)
+I (F:\MDK520\ARM\ARMCC\include\string.h)(0x56FE42DE)
+I (F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\stm32f10x.h)(0x57C5120C)
+I (F:\STM32_learning\MDK5_learning_STM32\MyProject\serial MQTT_moxigua\T2.W5500_TCP_DHCP\RTE\RTE_Components.h)(0x57DBE87F)
+I (F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cm3.h)(0x5735959E)
+I (F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cminstr.h)(0x57352EA6)
+I (F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\cmsis_armcc.h)(0x57352EA6)
+I (F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cmfunc.h)(0x57352EA6)
+I (F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (F:\STM32_learning\MDK5_learning_STM32\MyProject\serial MQTT_moxigua\T2.W5500_TCP_DHCP\RTE\Device\STM32F103ZG\stm32f10x_conf.h)(0x52F9EDD0)
+I (F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\RTE_Driver\GPIO_STM32F10x.h)(0x5617291E)
+I (F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\RTE_Driver\DMA_STM32F10x.h)(0x52B2710E)
+I (F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Driver\Include\Driver_USART.h)(0x57352EA8)
+I (F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Driver\Include\Driver_Common.h)(0x57352EA8)
+I (F:\MDK520\ARM\ARMCC\include\stddef.h)(0x56FE42DE)
+I (F:\STM32_learning\MDK5_learning_STM32\MyProject\serial MQTT_moxigua\T2.W5500_TCP_DHCP\RTE\Device\STM32F103ZG\RTE_Device.h)(0x57DCD1D2)
+F (F:\MDK520\ARM\PACK\Keil\ARM_Compiler\1.1.1\Source\retarget_io.c)(0x567A1A54)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\ioLibrary_Driver-master\Ethernet -I .\ioLibrary_Driver-master\Ethernet\W5500 -I .\ioLibrary_Driver-master\Application\loopback -I .\ioLibrary_Driver-master\Internet-I "F:\STM32_learning\MDK5_learning_STM32\MyProject\serial MQTT_moxigua\T2.W5500_TCP_DHCP\RTE"-I "F:\STM32_learning\MDK5_learning_STM32\MyProject\serial MQTT_moxigua\T2.W5500_TCP_DHCP\RTE\Device\STM32F103ZG"-I F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Driver\Include-I F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\RTOS\RTX\INC-I F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc-I F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\RTE_Driver-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F10X_XL-o .\objects\retarget_io.o --omf_browse .\objects\retarget_io.crf --depend .\objects\retarget_io.d)
+I (F:\MDK520\ARM\ARMCC\include\string.h)(0x56FE42DE)
+I (F:\MDK520\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (F:\MDK520\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
+I (F:\MDK520\ARM\ARMCC\include\stdlib.h)(0x56FE42DE)
+I (F:\MDK520\ARM\ARMCC\include\assert.h)(0x56FE42D6)
+I (F:\MDK520\ARM\ARMCC\include\rt_sys.h)(0x56FE42DE)
+I (F:\STM32_learning\MDK5_learning_STM32\MyProject\serial MQTT_moxigua\T2.W5500_TCP_DHCP\RTE\RTE_Components.h)(0x57DBE87F)
+F (F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\src\misc.c)(0x52F9EB20)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\ioLibrary_Driver-master\Ethernet -I .\ioLibrary_Driver-master\Ethernet\W5500 -I .\ioLibrary_Driver-master\Application\loopback -I .\ioLibrary_Driver-master\Internet-I "F:\STM32_learning\MDK5_learning_STM32\MyProject\serial MQTT_moxigua\T2.W5500_TCP_DHCP\RTE"-I "F:\STM32_learning\MDK5_learning_STM32\MyProject\serial MQTT_moxigua\T2.W5500_TCP_DHCP\RTE\Device\STM32F103ZG"-I F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Driver\Include-I F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\RTOS\RTX\INC-I F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc-I F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\RTE_Driver-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F10X_XL-o .\objects\misc.o --omf_browse .\objects\misc.crf --depend .\objects\misc.d)
+I (F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\stm32f10x.h)(0x57C5120C)
+I (F:\STM32_learning\MDK5_learning_STM32\MyProject\serial MQTT_moxigua\T2.W5500_TCP_DHCP\RTE\RTE_Components.h)(0x57DBE87F)
+I (F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cm3.h)(0x5735959E)
+I (F:\MDK520\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cminstr.h)(0x57352EA6)
+I (F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\cmsis_armcc.h)(0x57352EA6)
+I (F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cmfunc.h)(0x57352EA6)
+I (F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (F:\STM32_learning\MDK5_learning_STM32\MyProject\serial MQTT_moxigua\T2.W5500_TCP_DHCP\RTE\Device\STM32F103ZG\stm32f10x_conf.h)(0x52F9EDD0)
+I (F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+F (F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\src\stm32f10x_gpio.c)(0x52F9EB20)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\ioLibrary_Driver-master\Ethernet -I .\ioLibrary_Driver-master\Ethernet\W5500 -I .\ioLibrary_Driver-master\Application\loopback -I .\ioLibrary_Driver-master\Internet-I "F:\STM32_learning\MDK5_learning_STM32\MyProject\serial MQTT_moxigua\T2.W5500_TCP_DHCP\RTE"-I "F:\STM32_learning\MDK5_learning_STM32\MyProject\serial MQTT_moxigua\T2.W5500_TCP_DHCP\RTE\Device\STM32F103ZG"-I F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Driver\Include-I F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\RTOS\RTX\INC-I F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc-I F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\RTE_Driver-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F10X_XL-o .\objects\stm32f10x_gpio.o --omf_browse .\objects\stm32f10x_gpio.crf --depend .\objects\stm32f10x_gpio.d)
+I (F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\stm32f10x.h)(0x57C5120C)
+I (F:\STM32_learning\MDK5_learning_STM32\MyProject\serial MQTT_moxigua\T2.W5500_TCP_DHCP\RTE\RTE_Components.h)(0x57DBE87F)
+I (F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cm3.h)(0x5735959E)
+I (F:\MDK520\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cminstr.h)(0x57352EA6)
+I (F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\cmsis_armcc.h)(0x57352EA6)
+I (F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cmfunc.h)(0x57352EA6)
+I (F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (F:\STM32_learning\MDK5_learning_STM32\MyProject\serial MQTT_moxigua\T2.W5500_TCP_DHCP\RTE\Device\STM32F103ZG\stm32f10x_conf.h)(0x52F9EDD0)
+I (F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+F (F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\src\stm32f10x_rcc.c)(0x52F9EB20)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\ioLibrary_Driver-master\Ethernet -I .\ioLibrary_Driver-master\Ethernet\W5500 -I .\ioLibrary_Driver-master\Application\loopback -I .\ioLibrary_Driver-master\Internet-I "F:\STM32_learning\MDK5_learning_STM32\MyProject\serial MQTT_moxigua\T2.W5500_TCP_DHCP\RTE"-I "F:\STM32_learning\MDK5_learning_STM32\MyProject\serial MQTT_moxigua\T2.W5500_TCP_DHCP\RTE\Device\STM32F103ZG"-I F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Driver\Include-I F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\RTOS\RTX\INC-I F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc-I F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\RTE_Driver-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F10X_XL-o .\objects\stm32f10x_rcc.o --omf_browse .\objects\stm32f10x_rcc.crf --depend .\objects\stm32f10x_rcc.d)
+I (F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\stm32f10x.h)(0x57C5120C)
+I (F:\STM32_learning\MDK5_learning_STM32\MyProject\serial MQTT_moxigua\T2.W5500_TCP_DHCP\RTE\RTE_Components.h)(0x57DBE87F)
+I (F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cm3.h)(0x5735959E)
+I (F:\MDK520\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cminstr.h)(0x57352EA6)
+I (F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\cmsis_armcc.h)(0x57352EA6)
+I (F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cmfunc.h)(0x57352EA6)
+I (F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (F:\STM32_learning\MDK5_learning_STM32\MyProject\serial MQTT_moxigua\T2.W5500_TCP_DHCP\RTE\Device\STM32F103ZG\stm32f10x_conf.h)(0x52F9EDD0)
+I (F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+F (F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\RTE_Driver\DMA_STM32F10x.c)(0x5617291E)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\ioLibrary_Driver-master\Ethernet -I .\ioLibrary_Driver-master\Ethernet\W5500 -I .\ioLibrary_Driver-master\Application\loopback -I .\ioLibrary_Driver-master\Internet-I "F:\STM32_learning\MDK5_learning_STM32\MyProject\serial MQTT_moxigua\T2.W5500_TCP_DHCP\RTE"-I "F:\STM32_learning\MDK5_learning_STM32\MyProject\serial MQTT_moxigua\T2.W5500_TCP_DHCP\RTE\Device\STM32F103ZG"-I F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Driver\Include-I F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\RTOS\RTX\INC-I F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc-I F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\RTE_Driver-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F10X_XL-o .\objects\dma_stm32f10x.o --omf_browse .\objects\dma_stm32f10x.crf --depend .\objects\dma_stm32f10x.d)
+I (F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\RTE_Driver\DMA_STM32F10x.h)(0x52B2710E)
+I (F:\MDK520\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (F:\MDK520\ARM\ARMCC\include\stdbool.h)(0x56FE42DC)
+I (F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\STM32F10x.h)(0x57C5120C)
+I (F:\STM32_learning\MDK5_learning_STM32\MyProject\serial MQTT_moxigua\T2.W5500_TCP_DHCP\RTE\RTE_Components.h)(0x57DBE87F)
+I (F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cm3.h)(0x5735959E)
+I (F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cminstr.h)(0x57352EA6)
+I (F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\cmsis_armcc.h)(0x57352EA6)
+I (F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cmfunc.h)(0x57352EA6)
+I (F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (F:\STM32_learning\MDK5_learning_STM32\MyProject\serial MQTT_moxigua\T2.W5500_TCP_DHCP\RTE\Device\STM32F103ZG\stm32f10x_conf.h)(0x52F9EDD0)
+I (F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+F (F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\RTE_Driver\GPIO_STM32F10x.c)(0x5617291E)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\ioLibrary_Driver-master\Ethernet -I .\ioLibrary_Driver-master\Ethernet\W5500 -I .\ioLibrary_Driver-master\Application\loopback -I .\ioLibrary_Driver-master\Internet-I "F:\STM32_learning\MDK5_learning_STM32\MyProject\serial MQTT_moxigua\T2.W5500_TCP_DHCP\RTE"-I "F:\STM32_learning\MDK5_learning_STM32\MyProject\serial MQTT_moxigua\T2.W5500_TCP_DHCP\RTE\Device\STM32F103ZG"-I F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Driver\Include-I F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\RTOS\RTX\INC-I F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc-I F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\RTE_Driver-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F10X_XL-o .\objects\gpio_stm32f10x.o --omf_browse .\objects\gpio_stm32f10x.crf --depend .\objects\gpio_stm32f10x.d)
+I (F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\RTE_Driver\GPIO_STM32F10x.h)(0x5617291E)
+I (F:\MDK520\ARM\ARMCC\include\stdbool.h)(0x56FE42DC)
+I (F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\stm32f10x.h)(0x57C5120C)
+I (F:\STM32_learning\MDK5_learning_STM32\MyProject\serial MQTT_moxigua\T2.W5500_TCP_DHCP\RTE\RTE_Components.h)(0x57DBE87F)
+I (F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cm3.h)(0x5735959E)
+I (F:\MDK520\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cminstr.h)(0x57352EA6)
+I (F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\cmsis_armcc.h)(0x57352EA6)
+I (F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cmfunc.h)(0x57352EA6)
+I (F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (F:\STM32_learning\MDK5_learning_STM32\MyProject\serial MQTT_moxigua\T2.W5500_TCP_DHCP\RTE\Device\STM32F103ZG\stm32f10x_conf.h)(0x52F9EDD0)
+I (F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+F (RTE\Device\STM32F103ZG\RTE_Device.h)(0x57DCD1D2)()
+F (RTE\Device\STM32F103ZG\startup_stm32f10x_xl.s)(0x57DCE460)(--cpu Cortex-M3 --pd "__RTX SETA 1" -g --apcs=interwork -I "F:\STM32_learning\MDK5_learning_STM32\MyProject\serial MQTT_moxigua\T2.W5500_TCP_DHCP\RTE"-I "F:\STM32_learning\MDK5_learning_STM32\MyProject\serial MQTT_moxigua\T2.W5500_TCP_DHCP\RTE\Device\STM32F103ZG"-I F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Driver\Include-I F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\RTOS\RTX\INC-I F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc-I F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\RTE_Driver--pd "__UVISION_VERSION SETA 520" --pd "_RTE_ SETA 1" --pd "STM32F10X_XL SETA 1"--list .\listings\startup_stm32f10x_xl.lst --xref -o .\objects\startup_stm32f10x_xl.o --depend .\objects\startup_stm32f10x_xl.d)
+F (RTE\Device\STM32F103ZG\stm32f10x_conf.h)(0x52F9EDD0)()
+F (RTE\Device\STM32F103ZG\system_stm32f10x.c)(0x4F1E2E3C)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\ioLibrary_Driver-master\Ethernet -I .\ioLibrary_Driver-master\Ethernet\W5500 -I .\ioLibrary_Driver-master\Application\loopback -I .\ioLibrary_Driver-master\Internet-I "F:\STM32_learning\MDK5_learning_STM32\MyProject\serial MQTT_moxigua\T2.W5500_TCP_DHCP\RTE"-I "F:\STM32_learning\MDK5_learning_STM32\MyProject\serial MQTT_moxigua\T2.W5500_TCP_DHCP\RTE\Device\STM32F103ZG"-I F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Driver\Include-I F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\RTOS\RTX\INC-I F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc-I F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\RTE_Driver-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F10X_XL-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\stm32f10x.h)(0x57C5120C)
+I (F:\STM32_learning\MDK5_learning_STM32\MyProject\serial MQTT_moxigua\T2.W5500_TCP_DHCP\RTE\RTE_Components.h)(0x57DBE87F)
+I (F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cm3.h)(0x5735959E)
+I (F:\MDK520\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cminstr.h)(0x57352EA6)
+I (F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\cmsis_armcc.h)(0x57352EA6)
+I (F:\MDK520\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cmfunc.h)(0x57352EA6)
+I (F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (F:\STM32_learning\MDK5_learning_STM32\MyProject\serial MQTT_moxigua\T2.W5500_TCP_DHCP\RTE\Device\STM32F103ZG\stm32f10x_conf.h)(0x52F9EDD0)
+I (F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (F:\MDK520\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
